@@ -1,8 +1,8 @@
 import './App.css'
-import './My portfolio/portfolio.css'
-import PortNav from './My portfolio/PortNav.jsx'
-import Bio from './My portfolio/Bio.jsx'
-import Contacting from './My portfolio/contacting.jsx'
+import './portfolio/portfolio.css'
+import PortNav from './portfolio/PortNav.jsx'
+import Bio from './portfolio/Bio.js'
+import Contacting from './portfolio/Contacting.js'
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 function App() {
 
