@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../react-course"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React-course"
+	}
+}

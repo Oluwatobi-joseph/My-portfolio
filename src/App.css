@@ -1,0 +1,363 @@
+/* body{
+    background: rgba(209, 201, 201, 0.808);
+    padding-top: px;
+    padding-left: px;
+    padding-right: px;
+    margin-bottom: 130px;
+    font-family: sans-serif;
+} */
+/* html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-family: tahoma;
+    font-size: 25px;
+    text-decoration: wavy;
+}
+.Nav{
+
+    color: white;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 5px
+}
+.NAV-container{
+    position: fixed;
+    
+
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    border-radius: 0 0 22px 22px;
+    padding: px;
+} */
+/* .NAV-BG{
+    position: fixed;
+    height: 200px;
+    inset: 0;
+    background: rgba(20, 20, 20, 0.514);
+
+    box-shadow: 1px 10px 25px 5px rgba(14, 13, 13, 0.753);
+    backdrop-filter: blur(16px) saturate(200%);
+    border-radius: 0 0 25px 25px;
+}
+.right-icon{
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+.right-icon-1,
+.right-icon-2{
+    background: rgba(20, 20, 20, 0.39);
+    backdrop-filter: blur(16px) saturate(200%);
+    box-shadow: 0 8px 32px rgba(194, 192, 192, 0.3);
+
+    height: 60px;
+    width: 64px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+    outline: none;
+}
+.right-icon-1:focus {
+    outline: none;
+    background-color: white;
+}
+.right-icon-2:focus {
+    outline: none;
+    background-color: white;
+}
+.Nav-2{
+    position: ;
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Nav-text-2,
+.Nav-text-23,
+.Nav-text-24,
+.Nav-text-25{
+    background: rgb(90, 87, 87);
+    color: white;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-style: none;
+    border-radius: 20px;
+
+    font-weight: 550;
+    font-size: 17px;
+
+
+    box-shadow: 0 3px 8px rgba(218, 213, 213, 0.8);
+} */
+/* .Nav-text-2:focus,
+.Nav-text-23:focus,
+.Nav-text-24:focus,
+.Nav-text-25:focus{
+    background: black;
+    outline: none;
+}
+/* .heading-1{
+    outline: none;
+}
+.heading-2,
+.heading-3,
+.heading-4{
+    outline: none;
+} */
+
+
+/* .heading-2:focus,
+.heading-3:focus,
+.heading-4:focus, */
+/* .heading-1:focus{
+    background-color: black;
+} */
+/* .Nav-text-2:hover{
+    background: rgb(20, 20, 20);
+    color: white;
+} */
+
+/* .open-1 .Nav-text-2{
+    background-color: rgba(83, 82, 82, 0.192);
+    color: white;
+}
+.open-2 .Nav-text-23{
+    background-color: rgba(83, 82, 82, 0.192);
+    color: white;    
+}
+.open-3 .Nav-text-24{
+    background-color: rgba(83, 82, 82, 0.192);
+    color: white;     */
+/* }
+.open-4 .Nav-text-25{
+    background-color: rgba(83, 82, 82, 0.192);
+    color: white;    
+} */
+.Nav-3{
+    color: white;
+    display: flex;
+    gap: 250px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.Nav-text-3{
+    font-family: Tahoma;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+.down-nav-container{
+    position: fixed;
+    
+    width: 305px;
+    height: 83px;
+    bottom: 20px;
+    margin-left: 40px;
+    border-radius: 50px;
+    background: rgba(20, 20, 20, 0.39);
+    backdrop-filter: blur(16px) saturate(200%);
+    box-shadow: 1px 5px 10px 3px rgba(0, 0, 0, 0.596);
+}
+.down-nav{
+    text-align: center;
+    display: flex;
+    font-size: 50px;
+    gap: px;
+}
+.down-nav-1,
+.down-nav-2,
+.down-nav-3,
+.down-nav-4{
+    text-align: center;
+
+    margin-top: 3px;
+    width: 100px;
+    height: 77px;
+    border-radius: 60px;
+
+    cursor: pointer;
+
+}
+.down-nav-1:focus,
+.down-nav-2:focus,
+.down-nav-3:focus,
+.down-nav-4:focus{
+    outline: none;
+    background: rgba(255, 255, 255, 0.356);
+}
+
+/* .nav-open-1 .down-nav-1{
+    background-color: white;
+}
+ 
+.nav-open-2 .down-nav-2{
+    background-color: white;
+}
+.nav-open-3 .down-nav-3{
+    background-color: white;
+}
+.nav-open-4 .down-nav-4{
+    background-color: white;
+} */
+
+h5{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+
+.All-task-container{
+    margin-top: 220px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.task-1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(70, 66, 66, 0.082);
+
+    background-color: rgb(250, 244, 244);
+    box-shadow: 1px 1px 7px rgba(179, 174, 174, 0.966);
+
+
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-top: 15px;
+
+    border-radius: 25px;
+
+}
+
+.progress-1,
+.progress-2,
+.progress-3,
+.progress-4{
+    height: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+} */
+/* .progress-1{
+    width: 110px;
+    background-color: rgba(255, 217, 0, 0.61);
+}
+.progress-2,
+.progress-3{
+    background-color: rgb(144, 55, 167);
+    color: white;
+
+    width: 80px;
+}
+.progress-4{
+    background-color: rgb(44, 177, 44);
+    color: rgb(241, 237, 237);
+
+    width: 80px;
+}
+.progress-text{
+    padding-top: 5px;
+}
+.task-text{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.subject{
+    font-size: 18px;
+    font-weight: 100;
+}
+.comments{
+    display: flex;
+    gap: 95px;
+
+    margin-top: -10px;
+}
+
+input{
+    font-size: 19px;
+    font-weight: 600;
+}
+.input-tag{
+    height: 25px;
+    width: 170px;
+
+    margin-bottom: 10px;
+
+    border-width: 1px;
+    border-style: none;
+    border-radius: 15px;
+
+    text-align: center;
+
+    background-color: white;
+    box-shadow: inset -1px -1px 4px rgba(8, 8, 8, 0.308); 
+    box-shadow: 1px 2px 3px rgba(122, 117, 117, 0.3);
+} */
+/* input::placeholder{
+    color: rgb(201, 192, 192);
+    font-size: 18px;
+    font-weight: 100;
+}
+.input-tag:focus{
+    outline: none;
+    border-style: solid;
+}
+.btn-edit,
+.btn-cancel,
+.btn-save{
+    margin-left: 10px;
+
+    width: 55px;
+    height: 30px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    background-color: rgb(69, 96, 153);
+    color: white;
+
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+}
+.btn-cancel{
+    width: 70px;
+
+    color: white;
+    background-color: rgb(187, 31, 31);
+
+    border-width: 1px;
+}
+.btn-save{
+    background: green;
+
+    text-align: center;
+    padding-bottom: px;
+} */
