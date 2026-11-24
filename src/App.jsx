@@ -1,4 +1,3 @@
-import './App.css'
 import './portfolio/portfolio.css'
 import PortNav from './portfolio/PortNav.jsx'
 import Bio from './portfolio/Bio.jsx'
