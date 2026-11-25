@@ -1970,6 +1970,17 @@ a{
         font-size: ;
 
     }
+    .lets-connect-container{
+    width: 80%;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    padding-left: 10%;
+    padding-right: 1%;
+    padding-top: -1%;
+    padding-bottom: 10%;
+}
 }
 @media (max-width: 360px) {
     .whatsapp-connect{
