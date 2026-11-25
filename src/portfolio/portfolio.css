@@ -1794,6 +1794,15 @@ a{
 .tool h5{
     padding-left: 3%;
 }
+    .lets-connect-container{
+    width: 85%;
+
+    margin-left: 1%;
+    padding-left: 11%;
+    padding-right: 1%;
+    padding-top: -1%;
+    padding-bottom: 10%;
+}
 }
 @media (max-width: 430px){
     .focus-heading{
@@ -1971,12 +1980,10 @@ a{
 
     }
     .lets-connect-container{
-    width: 80%;
+    width: 85%;
 
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 5%;
-    padding-left: 10%;
+    margin-left: 1%;
+    padding-left: 11%;
     padding-right: 1%;
     padding-top: -1%;
     padding-bottom: 10%;
