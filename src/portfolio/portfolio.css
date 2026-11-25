@@ -194,11 +194,14 @@ html{
     text-align: center;
 
     padding-left: 3%;
-    top: -6px;
+    top: -33px;
     margin-left: 20%;
 
-    color: #151018dc;
+    color: rgba(255, 255, 255, 0.61);
 
+}
+.back h5:hover{
+    color: #0a0811d7;
 }
 .nav-1{
     margin-left: 20px;
@@ -213,11 +216,7 @@ html{
     color: #e0d3db;
 }
 
-/* @keyframes pulse{
-    50% { transform: scale(1.1);} */
-/* } */
 .nav-text{
-    /* animation: pulse 2s ease-in-out infinite; */
     margin-left: 15px;
     font-size: 17px;
 }
@@ -389,6 +388,7 @@ a{
     font-size: 13px;
 
     margin-top: 10px;
+    margin-left: 12%;
 
 }
 .last-credit-container{
@@ -413,6 +413,9 @@ a{
     padding-right: 15px;
 
 }
+.credit-1 h5{
+    margin-left: 15%;
+}
 .credit-1 h5,
 .credit-2 h5{
     font-weight: bold;
@@ -422,8 +425,11 @@ a{
     margin-left: -45px;
     margin-top: 5px;
 }
+.credit-1 h5{
+    margin-left: 3%;
+}
 .credit-2 h5{
-    margin-left: -1px;
+    margin-left: 1%;
 }
 .credit-1 p,
 .credit-2 p{
@@ -435,6 +441,7 @@ a{
     margin-top: -25px;
     margin-bottom: 7px;
 }
+
 .about-bio-container{
     margin-top: 30px;
 
@@ -695,6 +702,8 @@ a{
 .github-cont h5,
 .linkedin-cont h5{
     margin-top: 3%;
+    margin-left: 42%;
+    
     color: ;
 
     font-weight: 500;
@@ -832,14 +841,27 @@ a{
 }
 .bio-contact{
     width: 100%;
-    margin-left: 5px;
+    margin-right: 5px;
 
     background: transparent;
 }
 .contact-me{
     font-size: 14px;
+    margin-right: 12%;
 }
-
+.credit-1 h5{
+    padding-right: 35%;
+}
+.credit-1 p{
+    padding-right: 20%;
+}
+.credit-2 h5{
+    width: 80%;
+    padding-left: 12%;
+}
+.credit-2 p{
+    padding-right: 20%;
+}
 
 .about-bio-container{
     padding-left: 5px;
@@ -876,8 +898,9 @@ a{
 .location h5,
 .tool h5{
     font-size: 13px;
-    color: rgba(231, 222, 222, 0.849);
+    color: #cebcc6;
 
+    padding-left: 4%;
 }
 .comment-container{
     display: grid;
@@ -1050,6 +1073,9 @@ a{
     margin-left: 16%;
     margin-top: 2%;
 }
+/* .whatsapp-connect{
+    margin-right: -10%;
+} */
 }
 
 @media (max-width: 402px) {
@@ -1119,9 +1145,10 @@ a{
 .last-credit-container{
     display: grid;
     gap: 10px;
+    width: 85%;
 
-    margin-left: 5%;
-    margin-right: 0%;
+    /* margin-left: 15%; */
+    margin-right: 2%;
 }
 .credit-1,
 .credit-2{
@@ -1136,6 +1163,20 @@ a{
 }
 .contact-me{
     font-size: 14px;
+    margin-right: 12%;
+}
+.credit-1 h5{
+    padding-right: 20%;
+}
+.credit-1 p{
+    padding-right: 5%;
+}
+.credit-2 h5{
+    /* width: 70%; */
+    padding-right: 2%;
+}
+.credit-2 p{
+    padding-right: 5%;
 }
 
 
@@ -1174,7 +1215,9 @@ a{
 .location h5,
 .tool h5{
     font-size: 13px;
-    color: rgba(231, 222, 222, 0.849);
+    color: rgba(206, 190, 190, 0.849);
+
+    padding-left: 4%;
 
 }
 .comment-container{
@@ -1337,18 +1380,7 @@ a{
     margin-top: 2%;
 }
 }
-@media (max-width: 430px){
-    .focus-heading{
-    margin-left: -1%;
-    width: 53%;
-}
-.tooling-heading{
-    margin-right: 63%;
-}
-.edu-heading{
-    margin-right: 35%;
-}
-}
+
 @media (max-width: 440px) {
     body{
         margin-left: 10px;
@@ -1652,11 +1684,11 @@ a{
         height: 4%;
     }
     .tool{
-    width: 90%;
+    width: 65%;
     }
     .focus-heading{
     margin-left: -2%;
-    width: 65%;
+    width: 79%;
     }
     .tooling-heading{
     margin-right: 55%;
@@ -1672,20 +1704,32 @@ a{
     margin-left: 16%;
     margin-top: 2%;
 }
-
+.github-connect{
+    margin-left: 17.5%;
+}
 }
 
 @media (max-width: 402px) {
     
     .whatsapp-connect{
-        margin-left: 17%;
+        margin-left: 18.5%;
     }
+    .last-credit-container{
+        width: 90%;
+    margin-left: 7%;
 }
-@media (max-width: 360px) {
-    .whatsapp-connect{
-    margin-left: 15%;
+    .focus-heading{
+    margin-left: -2%;
+    width: 60%;
+}
+.tooling-heading{
+    margin-right: 60%;
+}
+.edu-heading{
+    margin-right: 29%;
 }
 }
+
 @media (max-width: 390px){
     .tooling-heading{
     margin-right: 58%;
@@ -1701,9 +1745,169 @@ a{
         margin-left: 16.5%;
     }
     .linkedin-connect{
-        margin-left: 17%;
-        margin-top: 0.99%;
+        margin-left: 18.5%;
+        margin-top: 1.5%;
     }
+}
+@media (max-width: 440px) {
+    .focus-heading{
+    margin-left: -1%;
+    width: 53%;
+}
+.tooling-heading{
+    margin-right: 63%;
+}
+.edu-heading{
+    margin-right: 35%;
+}
+.contact-me{
+    font-size: 14px;
+    margin-right: 12%;
+}
+    .last-credit-container{
+        width: 85%;
+    margin-left: 10%;
+}
+.credit-1 h5{
+    padding-right: 35%;
+}
+.credit-1 p{
+    padding-right: 15%;
+}
+.credit-2 h5{
+    width: 70%;
+    padding-left: 8%;
+}
+.credit-2 p{
+    padding-right: 10%;
+}
+.location{
+    width: 40%;
+}
+.tool{
+    width: 70%;
+}
+.location h5{
+    padding-left: 5%;
+    padding-right: ;
+}
+.tool h5{
+    padding-left: 3%;
+}
+}
+@media (max-width: 430px){
+    .focus-heading{
+    margin-left: -1%;
+    width: 53%;
+}
+.tooling-heading{
+    margin-right: 63%;
+}
+.edu-heading{
+    margin-right: 35%;
+}
+.contact-me{
+    font-size: 14px;
+    margin-right: 12%;
+}
+    .last-credit-container{
+        width: 85%;
+    margin-left: 10%;
+}
+.credit-1 h5{
+    padding-right: 35%;
+}
+.credit-1 p{
+    padding-right: 15%;
+}
+.credit-2 h5{
+    width: 70%;
+    padding-left: 8%;
+}
+.credit-2 p{
+    padding-right: 10%;
+}
+.location{
+    width: 40%;
+}
+.tool{
+    width: 70%;
+}
+.location h5{
+    padding-left: 5%;
+    padding-right: ;
+}
+.tool h5{
+    padding-left: 3%;
+}
+}
+@media (max-width: 414px){
+    .focus-heading{
+    margin-left: -2%;
+    width: 60%;
+}
+.tooling-heading{
+    margin-right: 60%;
+}
+.edu-heading{
+    margin-right: 29%;
+}
+.whatsapp-connect{
+    margin-left: 18.5%;
+}
+.credit-1 h5{
+    padding-right: 25%;
+}
+.credit-1 p{
+    padding-right: 10%;
+}
+.credit-2 h5{
+    width: 80%;
+    padding-left: 5%;
+}
+.credit-2 p{
+    padding-right: 10%;
+}
+.location{
+    width: 50%;
+}
+.tool{
+    width: 80%;
+}
+}
+@media (max-width: 402px){
+    .focus-heading{
+    margin-left: -2%;
+    width: 60%;
+}
+.tooling-heading{
+    margin-right: 60%;
+}
+.edu-heading{
+    margin-right: 29%;
+}
+.whatsapp-connect{
+    margin-left: 18.5%;
+}
+.credit-1 h5{
+    padding-right: 25%;
+}
+.credit-1 p{
+    padding-right: 10%;
+}
+.credit-2 h5{
+    width: 80%;
+    padding-left: 5%;
+}
+.credit-2 p{
+    padding-right: 10%;
+}
+.location{
+    width: 50%;
+}
+.tool{
+    width: 80%;
+}
 }
 @media (max-width: 393px){
     .focus-heading{
@@ -1716,7 +1920,30 @@ a{
 .edu-heading{
     margin-right: 29%;
 }
+.whatsapp-connect{
+    margin-left: 18.5%;
 }
+.credit-1 h5{
+    padding-right: 25%;
+}
+.credit-1 p{
+    padding-right: 10%;
+}
+.credit-2 h5{
+    width: 80%;
+    padding-left: 5%;
+}
+.credit-2 p{
+    padding-right: 10%;
+}
+.location{
+    width: 50%;
+}
+.tool{
+    width: 80%;
+}
+}
+
 @media (max-width: 375px) {
     .nav-menu{
         display: block;
@@ -1728,14 +1955,54 @@ a{
         border-radius: 12px;
     }
     .focus-heading{
-        margin-left: -2%;
+        margin-left: 1%;
         width: 60%;
     }
     .tooling-heading{
         margin-left: -1%;
     }
     .edu-heading{
-    margin-left: -8%;
+    margin-left: 1%;
     width: 90%;
+    }
+    .back h5{
+        padding-left: 1%;
+        font-size: ;
+
+    }
+}
+@media (max-width: 360px) {
+    .whatsapp-connect{
+    margin-left: 18%;
+}
+.location{
+    width: 50%;
+}
+.tool{
+    width: 85%;
+    padding-right: 2%;
+    }
+    .focus-heading{
+    margin-left: -1%;
+    width: 80%;
+    }
+    .tooling-heading{
+    margin-right: 55%;
+    }
+    .edu-heading{
+    margin-left: 1%;
+    }
+    .edu-container p{
+        margin-right: 2%;
+    }
+    .credit-2 h5{
+        width: 85%;
+        margin-left: -2%;
+    }
+    .back h5{
+        padding-left: -1%;
+        padding-top: 6%;
+        font-size: 23px;
+
     }
 }

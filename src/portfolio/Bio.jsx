@@ -34,7 +34,7 @@ function Bio(){
 
         <div className="last-credit-container">
             <div className="credit-1">
-                <h5>Production launches</h5>
+                <h5> Production launches</h5>
                 <p>4 web apps on deploying level.</p>
             </div>
             <div className="credit-2">
